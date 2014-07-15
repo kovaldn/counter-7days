@@ -1,0 +1,71 @@
+.countdown {
+    font-size: 30px;
+    color: #d32d26;
+    margin: 15px 0 25px;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.countdown .number-wrapper{
+    margin: 3px;
+    position: relative;
+    text-align: center;
+}
+
+.countdown .number {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-weight: 700;
+    min-width: 42px;
+    height: 34px;
+    line-height: 34px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #b6af9f;
+    border-top: 1px solid rgba(237,230,209,0.5);
+    background: #e6e6e6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e6e6e6 0%, #e8e8e8 49%, #e2e2e2 50%, #f5f5f5 51%, #f5f5f5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(49%,#e8e8e8), color-stop(50%,#e2e2e2), color-stop(51%,#f5f5f5), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e6e6e6 0%,#e8e8e8 49%,#e2e2e2 50%,#f5f5f5 51%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e6e6e6 0%,#e8e8e8 49%,#e2e2e2 50%,#f5f5f5 51%,#f5f5f5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e6e6e6 0%,#e8e8e8 49%,#e2e2e2 50%,#f5f5f5 51%,#f5f5f5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e6e6e6 0%,#e8e8e8 49%,#e2e2e2 50%,#f5f5f5 51%,#f5f5f5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+
+}       
+.caption {
+   font-size: 8px;
+   position: absolute;
+   bottom: -13px;
+   left: 0;
+   text-align: center;
+   width: 100%;
+   color: #535353;
+}
+.separator{
+    color: #535353;
+}
+.end{
+    font-size: 24px;
+    padding: 5px 20px;
+}
+
+.block_action .countdown{
+    text-align: left;
+    font-size: 50px;
+    margin: 15px 0 25px;
+}
+.block_action .countdown {
+    min-width: 77px;
+    height: 63px;
+    line-height: 63px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}   
+.block_action .caption {
+   font-size: 11px;
+   bottom: -30px;
+}
